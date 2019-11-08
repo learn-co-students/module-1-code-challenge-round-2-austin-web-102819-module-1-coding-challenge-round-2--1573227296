@@ -11,6 +11,20 @@ end
 # so they will be available to test and play around with in your console
 
 
+# Viewer
+manny= Viewer.new("MannyG")
+robert= Viewer.new("RobertL")
+
+# Movie
+meangirls= Movie.new("Mean Girls")
+persepolis= Movie.new("Persepolis")
+
+# add review
+manny_review1= Review.new(manny, meangirls, 8)
+manny_review2= Review.new(manny, persepolis, 10)
+robert_review1= Review.new(robert, persepolis, 10)
+manny_review=manny.rate_movie(meangirls, 8)
+robert_review= robert.rate_movie(persepolis, 10)
 
 
 
